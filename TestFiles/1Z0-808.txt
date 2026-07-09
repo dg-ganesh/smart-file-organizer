@@ -1,0 +1,40 @@
+Topic wise
+
+https://cglearning.udemy.com/course/oracle-java-certification-shortest-way-to-crack-oca-1z0-808/learn/quiz/4451968#overview
+ - Complete
+
+https://cglearning.udemy.com/course/java-oca/
+
+https://cglearning.udemy.com/course/letsgetcertified-808/
+
+https://www.examtopics.com/exams/oracle/1z0-808/view/
+
+https://www.whizlabs.com/ocajp-scja/ - paid last option
+
+Enthuware most recommended
+https://webets.enthuware.com/
+
+https://www.whizlabs.com/ocajp-scja/ - 1499 cost... last option
+
+
+Topics:
+==============
+Java Basics
+Working With Java Data Types
+Using Operators and Decision Constructs
+Creating and Using Arrays
+Using Loop Constructs
+Working with Methods and Encapsulation
+Working with Inheritance
+Handling Exceptions
+Working with Selected classes from the Java API
+
+Python exams PCEP
+https://cglearning.udemy.com/course/python-pcep/
+
+Certificates recco:
+https://youtu.be/8l_6JRwt3bA?si=19PPPIu4VfTlxR4y
+
+Path:
+https://www.youtube.com/watch?v=1VBQmmdRQfM
+
