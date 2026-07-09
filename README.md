@@ -1,3 +1,11 @@
+## Before
+
+![Before](screenshots/Before.JPG)
+
+## After
+
+![After](screenshots/after.JPG)
+
 # Smart File Organizer
 
 A lightweight Python utility that automatically organizes files into folders based on their file type.
