@@ -1,0 +1,57 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+
+venv/
+.venv/
+env/
+
+# PyInstaller
+
+build/
+dist/
+*.spec
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+*.tmp
+*.bak
+
+# Python Packaging
+
+*.egg-info/
+
+# Do NOT commit secrets
+
+*.pem
+*.key
+*.env
+
+# Large datasets (optional)
+
+*.parquet
+
+# Compiled Executables (Optional)
+
+# Uncomment if you don't want to store the executable
+
+# *.exe
