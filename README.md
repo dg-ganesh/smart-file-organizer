@@ -1,122 +1,97 @@
-## Before
-
-![Before](screenshots/Before.JPG)
-
-## After
-
-![After](screenshots/after.JPG)
-
 # Smart File Organizer
 
-A lightweight Python utility that automatically organizes files into folders based on their file type.
+A lightweight Windows utility that automatically organizes files into folders based on file type.
+
+![Smart File Organizer](screenshots/poster.png)
+
+---
+
+## What is Smart File Organizer?
+
+Smart File Organizer is a simple desktop utility built to solve a common problem—folders that become cluttered with dozens or hundreds of different file types.
+
+Simply copy **arrange.exe** into any folder, double-click it, and your files are automatically organized into folders such as:
+
+- PDF
+- Word
+- Excel
+- PowerPoint
+- CSV
+- JSON
+- Text
+- Others
+
+No installation or Python knowledge is required.
+
+---
 
 ## Features
 
-* Automatically scans the folder where the program is located.
-* Creates folders for different file types.
-* Moves files into their appropriate folders.
-* Works without requiring user input.
-* Can be packaged as a standalone Windows executable using PyInstaller.
-* Includes a reverse utility to restore the original folder structure.
+- Organizes files automatically
+- Works on any Windows folder
+- No installation required
+- No Python required
+- Lightweight executable
+- Safe (works locally on your computer)
+- Fast and easy to use
 
-## Supported File Types
+---
 
-Examples include:
+## Example
 
-* Documents
-* PDFs
-* Images
-* Videos
-* Audio
-* Archives
-* Spreadsheets
-* Presentations
-* Source Code
-* Others
+The poster above demonstrates the transformation from a cluttered folder to a neatly organized folder after running the utility.
 
-## Project Structure
+---
 
-```text
+## Download
+
+Download the latest Windows executable from the Releases page:
+
+https://github.com/dg-ganesh/smart-file-organizer/releases/latest
+
+---
+
+## Repository Structure
+
+```
 Smart-File-Organizer/
 │
 ├── arrange.py
 ├── reverse_arrange.py
-├── README.md
 ├── requirements.txt
+├── README.md
+├── LICENSE
 ├── .gitignore
 ├── screenshots/
+│   └── poster.png
 └── TestFiles/
 ```
 
-## Requirements
+---
 
-* Python 3.14 or later
+## Technologies Used
 
-## Installation
+- Python 3
+- PyInstaller
 
-Clone the repository:
+---
 
-```bash
-git clone https://github.com/dg-ganesh/smart-file-organizer.git
-```
+## Future Enhancements
 
-Move into the project directory:
+Planned improvements include:
 
-```bash
-cd smart-file-organizer
-```
+- Recursive folder organization
+- Custom folder mappings
+- Drag-and-drop interface
+- Duplicate file detection
+- Undo history
+- ZIP file handling
+- Google Drive support
+- Amazon S3 support
+- OneDrive support
 
-## Running the Program
-
-Using Python:
-
-```bash
-python arrange.py
-```
-
-To restore the original folder structure:
-
-```bash
-python reverse_arrange.py
-```
-
-## Creating a Standalone Executable
-
-Install PyInstaller:
-
-```bash
-pip install pyinstaller
-```
-
-Build the executable:
-
-```bash
-pyinstaller --onefile arrange.py
-```
-
-The executable will be available inside the `dist` folder.
-
-## Screenshots
-
-Example screenshots are available in the `screenshots` folder.
-
-## Future Improvements
-
-* Custom file categories
-* Configuration file support
-* Logging
-* Duplicate file detection
-* File preview mode
-* Undo functionality
-* Drag-and-drop support
-* Cloud storage integration
+---
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Author
-
-**Ganesh DG**
-
-GitHub: https://github.com/dg-ganesh
+MIT License
