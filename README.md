@@ -2,7 +2,7 @@
 
 A lightweight Windows utility that automatically organizes files into folders based on file type.
 
-![Smart File Organizer](screenshots/poster.png)
+![Smart File Organizer](screenshots/Poster.png)
 
 ---
 
